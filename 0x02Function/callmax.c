@@ -2,7 +2,6 @@
 
 
 int max(int one, int two);
-
 int main(void)
 {
 	int first, second, bigger;
