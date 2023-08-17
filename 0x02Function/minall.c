@@ -14,7 +14,7 @@ int main(void)
 	return (0);
 }
 
-int min(int one, two)
+int min(int one, int two)
 {
 	int result;
 
