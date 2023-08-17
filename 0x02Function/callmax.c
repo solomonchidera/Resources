@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 
-int max(int one, int two);
+/*int max(int one, int two);*/
+int max(int, int);
 int main(void)
 {
 	int first, second, bigger;
