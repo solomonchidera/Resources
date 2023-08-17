@@ -11,5 +11,7 @@ int main(void)
 	int a = 0, b;
 
 	while (i < 5)
-	{}
+	{
+		puchar()
+	}
 }
