@@ -9,6 +9,7 @@ int main(void)
 	snum = 43;
 
 	ret = min(fnum, snum);
+	printf("The minimum value between %d and %d is %d\n", fnum, snum, ret);
 
 	return (0);
 }
