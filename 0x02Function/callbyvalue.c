@@ -11,7 +11,7 @@ int main(void)
 	int num = 5;
 	modifyValue(num);
 
-	printf("Outside Function: num is %d\n");
+	printf("Outside Function: num is %d\n", num);
 
 	return (0);
 }
