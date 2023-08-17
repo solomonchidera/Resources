@@ -5,13 +5,11 @@ int max(int one, int two);
 
 int main(void)
 {
-	int first, second;
-	
+	int first, second, bigger;
+
 	first = 40;
 
 	second = 20;
-
-	int bigger;
 
 	bigger = max(first, second);
 
