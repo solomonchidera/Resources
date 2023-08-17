@@ -16,4 +16,5 @@ int add(int one, int two)
 	int result;
 	result = one + two;
 	return (result);
+	/*return(one + two); can still work*/
 }
