@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-/*int max(int one, int two);*///this can also work
+/*int max(int one, int two);this can also work as the function declaraton*/
 int max(int, int);
 int main(void)
 {
