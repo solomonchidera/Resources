@@ -12,6 +12,7 @@ int main(void)
 
 	while (a < 5)
 	{
+		b = 0;
 		while (b < 3)
 		{
 			printf("2 ");
