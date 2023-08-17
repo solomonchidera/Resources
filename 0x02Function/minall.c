@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int min(int int);
+int min(int, int);
 int main(void)
 {
 	int fnum, snum, ret;
