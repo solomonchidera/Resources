@@ -13,7 +13,7 @@ int main(void)
 	while (a < 5)
 	{
 		b = 0;
-		while (b < 3)
+		while (b < 5)
 		{
 			printf("2 ");
 			b++;
