@@ -12,5 +12,7 @@ int main(void)
 
 	bigger = max(first, second);
 
+	printf("The max value between first and second is %d\n", bigger);
+
 	return (0);
 }
