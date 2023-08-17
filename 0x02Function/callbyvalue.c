@@ -10,6 +10,7 @@ int main(void)
 {
 	int num = 5;
 	modifyValue(num);
+
 	printf("Outside Function: num is %d\n");
 
 	return (0);
