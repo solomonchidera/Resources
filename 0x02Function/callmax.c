@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-/*int max(int one, int two);*/
+/*int max(int one, int two);*///this can also work
 int max(int, int);
 int main(void)
 {
