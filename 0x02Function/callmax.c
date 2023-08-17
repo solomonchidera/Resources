@@ -5,7 +5,7 @@ int max(int one, int two);
 
 int main(void)
 {
-	int first, seccond;
+	int first, second;
 	
 	first = 40;
 
