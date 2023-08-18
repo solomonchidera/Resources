@@ -2,12 +2,12 @@
 
 int main(void)
 {
-	char c[] = "_putchar";
+	char c[8] = "_putchar";
 	int i;
 
 	for (i = 0; i <= c[]; i++)
 	{
-		_puchar(c[i]);
+		_putchar(c[i]);
 	}
 	
 	return (0);
