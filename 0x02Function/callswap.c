@@ -12,12 +12,12 @@ int main(void)
 	scanf("%d", &se);
 
 	printf("fi                       se\n
-		-----------------------------\n");
+		\-----------------------------\n");
 	printf("This are the numbers you inserted\n
 		%d                        %d\n", fi, se);
 	swap(fi, se);
 	printf("After swapping the two values with the swap\n
-		------------------------------------------\n
+		\------------------------------------------\n
 		%d                              %d\n", fi, se);
 
 	return (0);
