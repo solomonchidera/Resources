@@ -5,7 +5,7 @@ int main(void)
 	char c[8] = "_putchar";
 	int i;
 
-	for (i = 0; i <= c[]; i++)
+	for (i = 0; i <= c[i]; i++)
 	{
 		_putchar(c[i]);
 	}
