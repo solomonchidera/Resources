@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void swap(int *one, *two)
+void swap(int *one, int *two)
 {
 	int holder;
 
