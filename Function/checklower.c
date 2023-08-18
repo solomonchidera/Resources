@@ -22,7 +22,7 @@ int main(void)
 	printf("%d", i);
 	i = _islower('Y');
 	printf("%d", i);
-	i = islower('H');
+	i = _islower('H');
 	printf("%d", i);
 	i = _islower('f');
 	printf("%d", i);
