@@ -26,6 +26,6 @@ int main(void)
 	printf("%d", i);
 	i = _islower('f');
 	printf("%d", i);
-
+	printf("--------\n");
 	return (0);
 }
