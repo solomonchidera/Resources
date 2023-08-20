@@ -15,7 +15,6 @@ int main(void)
 		b = 0;
 		while (b < 5)
 		{
-			c = 0;
 
 			printf("2 5 ");
 			b++;
