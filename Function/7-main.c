@@ -12,5 +12,6 @@ int main(void)
 	_putchar('0' + r);
 	r = print_last_digit(-1096);
 	_putchar('0' + r);
+	_putchar(10);
 	return (0);
 }
