@@ -20,10 +20,11 @@ int main(void)
 			while (c < 5)
 			{
 				printf(" 5 ");
-
+				c++;
+			}
 			printf("2 ");
 			b++;
-			}
+			
 		}
 
 		putchar(10);
