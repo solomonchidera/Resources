@@ -9,6 +9,6 @@ int main(void)
 		printf("%d\n", cohort);
 	}
 	putchar(10);
-	printf("The last two digits is his cohort");
+	printf("The last two digits is his cohort\n");
 	return (0);
 }
