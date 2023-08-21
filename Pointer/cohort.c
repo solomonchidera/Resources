@@ -7,8 +7,8 @@ int main(void)
 	for (; cohort < 11; cohort++)
 	{
 		printf("%d\n", cohort);
-		printf("The last two digits is his cohort");
 	}
 	putchar(10);
+	printf("The last two digits is his cohort");
 	return (0);
 }
