@@ -19,6 +19,7 @@ void modify_my_param(int m)
 int main(void)
 {
 	int n;
+	n = 345;
 
 	modify_my_param(n);
 	printf("%d is for n", n);
