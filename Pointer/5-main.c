@@ -7,8 +7,6 @@ int main(void)
 
 	n = 98;
 	
-	int a = &n;
-	printf("The address of n: %d\n", a);
 
 	p = &n;
 
