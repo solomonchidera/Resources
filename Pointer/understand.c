@@ -8,7 +8,7 @@ void trying_tosee(*a)
 int main(void)
 {
 	int n = 354;
-	trying_tosee(n);
+	trying_tosee(a);
 	printf("This is the value of n: %d\n", n);
 	return (0);
 }
