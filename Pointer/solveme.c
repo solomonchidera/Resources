@@ -14,5 +14,7 @@ int main(void)
 	p = &c;
 	c = 'H';
 	modify(p, c);
+	printf("The value of c: %c \n", c);
+	printf("The value of p: %p\n", p);
 	return (0);
 }
