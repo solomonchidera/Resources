@@ -14,3 +14,4 @@ int main(void)
 	*p = 402;
 	printf("Value of 'n': %d\n", n);
 	return (0);
+}
