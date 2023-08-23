@@ -1,6 +1,6 @@
 #include "main.h"
 
-void trying_tosee(*a)
+void trying_tosee(int *a)
 {
 	*a = 500;
 }
@@ -8,7 +8,7 @@ void trying_tosee(*a)
 int main(void)
 {
 	int n = 354;
-	trying_tosee(a);
+	trying_tosee(n);
 	printf("This is the value of n: %d\n", n);
 	return (0);
 }
