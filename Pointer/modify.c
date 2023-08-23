@@ -22,5 +22,6 @@ int main(void)
 
 	n = 98;
 	modify_my_param(n);
+	printf("%d is for n", n);
 	return (0);
 }
