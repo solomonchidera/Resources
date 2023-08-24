@@ -17,9 +17,9 @@ int main(void)
 	printf("Value of a[3]: %d\n", *(a + 3));
 	printf("-----------------------------\n");
 	printf("Value of 'a' (also address of a[0]): %p\n", a);
-	printf("Address of 'a[1]': %p", (a + 1));
-	printf("Address of 'a[1]': %p", &a[1]);
-	printf("Address of 'a[1]': %p", &(*(a + 1)));
+	printf("Address of 'a[1]': %p\n", (a + 1));
+	printf("Address of 'a[1]': %p\n", &a[1]);
+	printf("Address of 'a[1]': %p\n", &(*(a + 1)));
 
 	return (0);
 
