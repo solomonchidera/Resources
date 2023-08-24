@@ -1,10 +1,5 @@
-#include <stdio.h>
+#include "main.h"
 
-/**
- * main - Accessing the different elements of an array
- *
- * Return: Always 0.
- */
 int main(void)
 {
 	int a[5];
@@ -14,15 +9,11 @@ int main(void)
 	a[2] = 298;
 	a[3] = 398;
 	a[4] = 498;
-	printf("Value of a[0]: %d\n", a[0]);
-	printf("Value of a[1]: %d\n", a[1]);
-	printf("Value of a[2]: %d\n", a[2]);
-	printf("Value of a[3]: %d\n", a[3]);
-	printf("Value of a[4]: %d\n", a[4]);
-	printf("Address of 'a[0]': %p\n", &(a[0]));
-	printf("Address of 'a[1]': %p\n", &(a[1]));
-	printf("Address of 'a[2]': %p\n", &(a[2]));
-	printf("Address of 'a[3]': %p\n", &(a[3]));
-	printf("Address of 'a[4]': %p\n", &(a[4]));
+	printf("Value of the first index which is a[0] is %d\n", a[0]);
+	printf("Value of the second index which is a[1] is %d\n", a[1]);
+	printf("Value of the third index which is a[2] is %d\n", a[2]);
+	printf("Value of the fourth index which is a[3] is %d\n", a[3]);
+	printf("Value of the last index which is a[4] is %d\n", a[4]);
+
 	return (0);
 }
