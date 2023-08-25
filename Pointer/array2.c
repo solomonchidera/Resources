@@ -12,7 +12,7 @@ int main(void)
 
 	for (j = 0; j < 10; j++)
 	{
-		printf("Element [%d] = [%d]\n", j, n[i]);
+		printf("Element [%d] = [%d]\n", j, n[j]);
 	}
 	return (0);
 }
