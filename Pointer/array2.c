@@ -9,6 +9,6 @@ int main(void)
 	{
 		n[i] = i + 100;
 	}
-	printf("Element [%d] = [%d]", n, n[i]);
+	printf("Element [%d] = [%d]", n[], n[i]);
 	return (0);
 }
