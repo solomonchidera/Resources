@@ -3,7 +3,7 @@
 int main(void)
 {
 	double salary[5];
-	scanf("%lf %lf", salary, salary[1]);
-	printf("The first number is %lf\nAnd the second number is: %lf\n", *salary, *(salary + 1));
+	scanf("%lf", salary);
+	printf("The first number is %lf\n", *salary);
 	return (0);
 }
