@@ -15,8 +15,8 @@ int main(void)
 	*(a + 4) = 498;
 	p = a + 1;
 	printf("p = a + 1: %d\n", a + 1);
-	*p = 98;
+	*p = 98;//dereferencing happened here
 	p2 = a + 3;
-	*p2 = *p + 1337;
+	*p2 = *p + 1337;//dereferencing happened here
 	return (0);
 }
