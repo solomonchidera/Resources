@@ -11,9 +11,9 @@ int factoral(int n)
 
 int main(void)
 {
-	int b = 5;
+	int b;
 
-	factoral(b);
+	b = factoral(5);
 
 	printf("The factorial of 5 is: %d\n", b);
 
