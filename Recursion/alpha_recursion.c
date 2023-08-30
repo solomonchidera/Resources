@@ -3,7 +3,7 @@
 
 void print_char(char c)
 {
-	write(1 &c, 1);
+	write(1, &c, 1);
 }
 
 void print_all_alphabet_starting_from(char c)
