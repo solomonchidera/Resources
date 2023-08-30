@@ -16,7 +16,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%d\t", i, fibonacci(i));
+		printf("%d\t", fibonacci(i));
 	}
 
 	return (0);
