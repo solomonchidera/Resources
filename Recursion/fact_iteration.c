@@ -9,7 +9,7 @@ int factorial(int n)
 
 	while (i <= n)
 	{
-		res = res * 1;
+		res = res * i;
 		i++;
 	}
 	return (res);
@@ -21,5 +21,6 @@ int main(void)
 
 	f = factorial(5);
 	printf("5! = %d\n", f);
+
 	return (0);
 }
