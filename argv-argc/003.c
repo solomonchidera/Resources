@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 	int count;
 
 	printf("This program was called with \"%s\".\n", argv[0]);
-	
+	printf("argc is total of %d\n", argc);
 
 	if (argc > 1)
 	{
