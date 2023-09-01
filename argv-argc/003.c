@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[])
 {
-	int sum;
+	int sum = 0;
 	int count;
 
 	printf("This program was called with \"%s\".\n", argv[0]);
