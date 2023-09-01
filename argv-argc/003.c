@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 		for (count = 1; count < argc; count++)
 		{
 			printf("argv[%d] = %s\n", count, argv[count]);
-			sum = += atoi(argv[i]);
+			sum += atoi(argv[i]);
 		}
 		printf("The sum of those argument are: %d\n", argv[i]);
 	}
