@@ -4,7 +4,7 @@ int main(int argc, char **argv)
 {
 	while (argc --)
 	{
-		printf("%s\n", *argv++);
+		printf("%d %s\n", argc, *argv++);
 	}
 	exit (EXIT_SUCCESS);
 }
