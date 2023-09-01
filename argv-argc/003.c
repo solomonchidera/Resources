@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 			printf("argv[%d] = %s\n", count, argv[count]);
 			sum += atoi(argv[count]);
 		}
-		printf("The sum of those argument are: %d\n", argv[count]);
+		printf("The sum of those argument are: %d\n", sum);
 	}
 	else 
 	{
