@@ -13,7 +13,7 @@ int main(void)
 	printf("Enter values\n");
 	for (i = 0; i < n; i++)
 	{
-		scanf("%d", (ptr + 1));
+		scanf("%d", (ptr + i));
 	}
 
 	printf("The entered values are\n");
