@@ -1,10 +1,12 @@
 #include <stdio.h>
 
+/*Explaining stack overflow*/
 void fun(int a)
 {
 	if (a == 0)
 		return;
 	a += 1;
+
 	printf("\n");
 	printf("%d", a);
 	fun(a);
