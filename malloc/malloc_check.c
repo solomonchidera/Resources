@@ -14,7 +14,7 @@ int main(void)
 		if (s == NULL)
 		{
 			printf("Can't allocate %d bytes (after %d calls)\n", INT_MAX, i);
-			return (1)
+			return (1);
 		}
 		s[0] = 'H';
 		i++;
