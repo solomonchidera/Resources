@@ -8,6 +8,7 @@ int main(void)
 	tab[1] = -1024;
 	tab[2] = 402;
 	printf("%d, %d, %d\n", tab[0], tab[1], tab[2]);
+	free(tab);
 
 	return (0);
 }
