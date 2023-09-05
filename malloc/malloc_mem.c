@@ -16,6 +16,6 @@ void m(int n0, int n1, int n2)
 
 int main(void)
 {
-	m(5, 4, 1);
+	m(98, 402, -1024);
 	return (0);
 }
