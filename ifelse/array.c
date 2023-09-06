@@ -25,7 +25,7 @@ int main(void)
 		printf("%d\n", my_arr[i]);
 	}
 
-	printf("\n--------------------------------\n")
+	printf("\n--------------------------------\n");
 
 	for (i = 0; i < my_arr[i]; i++)
 	{
