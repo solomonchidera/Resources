@@ -3,7 +3,7 @@
 int main(void)
 {
 	int a, b, c;
-	a = 10, b = 20;
+	a = 21, b = 10;
 
 	c = a + b;
 	printf("a: %d + b: %d = %d\n", a, b, c);
