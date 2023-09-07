@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-main() {
+int main(void)
+{
 
 	int a = 21;
 	int b = 10;
