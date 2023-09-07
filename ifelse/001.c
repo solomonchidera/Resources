@@ -21,10 +21,10 @@ int main(void)
 	printf("a:%d %%%% b :%d = %d\n", a, b, c);
 
 	c = a++;
-	printf("a++ will give us this output: %d", c);
+	printf("a++ will give us this output: %d\n", c);
 
 	c = b++;
-	printf("b++ will give us this output: %d", c);
+	printf("b++ will give us this output: %d\n", c);
 
 	return (0);
 
