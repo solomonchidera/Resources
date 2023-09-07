@@ -18,7 +18,7 @@ int main(void)
 	printf("a:%d / b:%d = %d\n", a, b, c);
 
 	c = a % b;
-	printf("a:%d \%\ b:%d = %d\n", a, b, c);
+	printf("a:%d %\ b:%d = %d\n", a, b, c);
 
 	c = a++;
 	printf("a++ will give us this output: %d", c);
