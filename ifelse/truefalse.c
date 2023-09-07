@@ -8,6 +8,6 @@ int main(void)
 	printf("5 > 4 %d\n", 5 > 4);
 	printf("5 <= 4 %d\n", 5 <= 4);
 	printf("5 >= 4 %d\n", 5 >= 4);
-	printf("5 != 4 %d\n", 5 != 4)
+	printf("5 != 4 %d\n", 5 != 4);
 	return (0);
 }
