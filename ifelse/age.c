@@ -7,6 +7,7 @@ int main(void)
 	printf("Please enter your age :)\n");
 	scanf("%d", &age);
 	printf("Thanks for giving your age, do hold on while we review your age\n");
+	sleep(5);
 
 	if (age < 25)
 		printf("You are still a young person\n");
