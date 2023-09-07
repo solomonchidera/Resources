@@ -5,15 +5,15 @@
 
 void *malloc_checked(unsigned int b)
 {
-	int *ptr;
+	void *ptr;
 
 	ptr = malloc(sizeof(b));
 
 	if (ptr == NULL)
 	{
-		printf("98\n");
-		return (1);
+		exit(98);
 	}
+	return (ptr);
 
 }
 
