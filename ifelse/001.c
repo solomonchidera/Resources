@@ -6,7 +6,7 @@ int main(void)
 	a = 10, b = 20;
 
 	c = a + b;
-	printf("a:%d + b:%d = %d\n", a, b, c);
+	printf("a: %d + b: %d = %d\n", a, b, c);
 
 	c = a - b;
 	printf("a:%d - b:%d = %d\n", a, b, c);
