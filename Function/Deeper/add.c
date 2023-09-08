@@ -12,9 +12,10 @@ int add(int a, int b)
 
 int main(void)
 {
-	int a, b;
+	int a, b, sum;
 	a = 3, b = 10;
-	add(a, b);
+	sum = add(a, b);
+	printf("%d + %d = %d\n", a, b, sum);
 	return (0);
 
 }
