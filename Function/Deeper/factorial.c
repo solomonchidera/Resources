@@ -5,7 +5,10 @@ int factorial(int n)
 	if (n == 0)
 		return (1);
 
-	n = n * (n - 1);
+	for (n = 1; i < 5; ++i)
+	{
+		n = n * (n - 1);
+	}
 	return (n);
 }
 
