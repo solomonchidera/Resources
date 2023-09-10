@@ -12,9 +12,12 @@ void sum()
 
 int main(void)
 {
-	sum();
-	sum();
-	sum();
 
+	int i;
+
+	for (i = 0; i < 3; ++i)
+	{
+		sum();
+	}
 	return (0);
 }
