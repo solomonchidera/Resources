@@ -13,9 +13,12 @@ void sum()
 int main(void)
 {
 
-	int i;
+	int i, times;
 
-	for (i = 0; i < 3; ++i)
+	printf("Enter how many times you will lik/e to play this little game\n");
+	scanf("%d", &times);
+
+	for (i = 0; i < times; ++i)
 	{
 		sum();
 	}
