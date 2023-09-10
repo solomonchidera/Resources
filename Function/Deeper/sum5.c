@@ -14,6 +14,11 @@ int main(void)
 {
 
 	int i, times;
+	char *play;
+	char *yes, *no;
+
+	yes = "yes";
+	no = "no";
 
 	printf("Enter how many times you will lik/e to play this little game\n");
 	scanf("%d", &times);
@@ -22,5 +27,11 @@ int main(void)
 	{
 		sum();
 	}
+
+	printf("will you like to play again?");
+	scanf("%s", &play);
+
+	if (play == yes)
+
 	return (0);
 }
