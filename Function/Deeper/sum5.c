@@ -28,10 +28,5 @@ int main(void)
 		sum();
 	}
 
-	printf("will you like to play again?");
-	scanf("%s", &play);
-
-	if (play == yes)
-
 	return (0);
 }
