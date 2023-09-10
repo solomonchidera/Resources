@@ -2,7 +2,7 @@
 
 void reference(int *x)
 {
-	*x = *x += 10;
+	*x += 10;
 }
 
 int main(void)
