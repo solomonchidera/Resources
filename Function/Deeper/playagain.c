@@ -15,7 +15,7 @@ void play_again()
 
 	if (play == yes)
 	{
-
+		sum();
 	}
 
 
