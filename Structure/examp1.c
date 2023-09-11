@@ -10,6 +10,9 @@ struct User
 int main(void)
 {
 	struct User user;
+	
+	user.name = "Foo Bar";
+	printf()
 
 	return (0);
 }
