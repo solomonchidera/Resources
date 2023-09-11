@@ -12,7 +12,7 @@ int main(void)
 	struct User user;
 	
 	user.name = "Foo Bar";
-	printf()
-
+	user.email = "foo@hbtn.io";
+	user.age = 98;
 	return (0);
 }
