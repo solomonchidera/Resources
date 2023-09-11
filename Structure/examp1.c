@@ -14,6 +14,6 @@ int main(void)
 	user.name = "Foo Bar";
 	user.email = "foo@hbtn.io";
 	user.age = 98;
-	printf("sizeof User %lu\n", sizeof(User));
+	printf("sizeof User %lu\n", sizeof(struct User));
 	return (0);
 }
