@@ -14,7 +14,7 @@ int main(void)
 	
 	ptr = &user;
 
-	(*ptr).name "Foo Bar";
+	(*ptr).name = "Foo Bar";
 	ptr->email = "foo@hbtn.io";
 	ptr->age = 98;
 	printf("sizeof User %lu\n", sizeof(struct User));
