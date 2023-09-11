@@ -15,9 +15,9 @@ struct User *new_user(char *name, char *email, int age)
 	if (user == NULL)
 		return(NULL);
 
-	user-> = name;
-	user-> = email;
-	user-> = age;
+	user->name = name;
+	user->email = email;
+	user->age = age;
 
 	return user;
 }
