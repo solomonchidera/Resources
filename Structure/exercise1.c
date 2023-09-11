@@ -11,6 +11,14 @@ struct User *new_user(char *name, char *email, int age)
 {
 	struct User *user;
 
+	user = malloc(sizeof(struct User));
+	if (user == NULL)
+		return(NULL);
+
+	user-> = name;
+	user-> = email;
+	user-> = age;
+
 	return user;
 }
 
