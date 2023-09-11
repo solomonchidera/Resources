@@ -11,3 +11,4 @@ int main(void)
 	printf("TABLESIZE %d\n", num);
 	printf("BUFSIZE %d\n", BUFSIZE);
 	return (0);
+}
