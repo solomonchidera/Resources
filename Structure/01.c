@@ -3,6 +3,7 @@
 int main(void)
 {
 	struct Person solomon;
+	struct Person *ptr;
 
 	solomon.name = "Solomon";
 	solomon.email = "solo@me.com";
@@ -14,5 +15,9 @@ int main(void)
 	printf("His pet name is %s and can you imagine that his salary is: %f\n", solomon.pet, solomon.salary);
 	printf("His fun fact %s\n", solomon.funfact);
 
+	ptr = &solomon;
+	(*ptr).name = "Med-Es";
+	ptr->email = "voo@gmail.com";
+	printf("The new email is: %s", ptr->email);
 	return (0);
 }
