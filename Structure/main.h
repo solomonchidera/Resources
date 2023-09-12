@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-struct solomon
+struct Person
 {
 	char *name;
 	char *email;
