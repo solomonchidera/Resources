@@ -10,7 +10,7 @@ typedef struct User
 int main(void)
 {
 	struct User user;
-	stuct User *ptr;
+	struct User *ptr;
 
 	ptr = &user;
 
