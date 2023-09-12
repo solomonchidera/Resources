@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	struct person solomon;
+	struct Person solomon;
 
 	solomon.name = "Solomon";
 	solomon.email = "solo@me.com";
