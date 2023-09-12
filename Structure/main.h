@@ -6,7 +6,7 @@ struct Person
 	char *name;
 	char *email;
 	char *pet;
-	char *fun-fact;
+	char *funfact;
 	int age;
 	float salary;
 };
