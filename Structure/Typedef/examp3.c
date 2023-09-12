@@ -20,3 +20,4 @@ int main(void)
 	/*user user2;*/
 
 	return (0);
+}
