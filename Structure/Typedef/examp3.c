@@ -15,7 +15,7 @@ int main(void)
 	ptr = &user;
 
 	(*ptr).name = "Solomon";
-	printf("%s\n", name);
+	printf("%s\n", user.name);
 	user user2;
 
 	return (0);
