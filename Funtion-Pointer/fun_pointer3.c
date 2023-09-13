@@ -31,6 +31,15 @@ int main(void)
 	{
 		(*ptr[0])(x, y);
 	}
+	else if (ch == 1)
+		(*ptr[1])(x, y);
+	else if (ch == 2)
+		(*ptr[2])(x, y);
+	else
+	{
+		printf("Error\n");
+		return (1);
+	}
 
 	return (0);
 }	
