@@ -29,7 +29,7 @@ int main(void)
 
 	if (ch == 0) return (0);
 
-	(*ptr[ch])(x, y);
+	(*ptr[0])(x, y);
 
 	return (0);
 }	
