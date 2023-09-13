@@ -23,7 +23,7 @@ void Mathoperation(int x, int y, int (*operation)(int, int))
 
 int main(void)
 {
-	Mathoperatin(5, 6, add);
+	Mathoperation(5, 6, add);
 	Mathoperation(11, 3, subs);
 	return (0);
 }
