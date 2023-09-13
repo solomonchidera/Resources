@@ -14,7 +14,7 @@ int main(void)
 
 	for (n = 0; n < 6; n++)
 	{
-		printf("%d\n", value[n])
+		printf("%d\n", value[n]);
 	}
 	return (0);
 }
