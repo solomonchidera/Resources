@@ -27,9 +27,10 @@ int main(void)
 	printf("Choose the number you want to use for your operation\n");
 	scanf("%d %d", &x, &y);
 
-	if (ch == 0) return (0);
-
-	(*ptr[0])(x, y);
+	if (ch == 0)
+	{
+		(*ptr[0])(x, y);
+	}
 
 	return (0);
 }	
