@@ -18,7 +18,7 @@ void Mathoperation(int x, int y, int (*operation)(int, int))
 {
 	int result;
 	result = operation(x, y);
-	printf("Result: %d", result);
+	printf("Result: %d\n", result);
 }
 
 int main(void)
