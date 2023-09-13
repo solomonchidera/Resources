@@ -18,7 +18,8 @@ void mul(int a, int b)
 int main(void)
 {
 	void (*ptr[])(int, int) = {add, sub, mul};
-	unsigned int ch, int x, y;
+	unsigned int ch;
+	int x, y;
 	
 	printf("choose 0 for add, 1 for sub, 2 for mul\n");
 	scanf("%d", &ch);
