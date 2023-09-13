@@ -1,6 +1,6 @@
 #include "main.h"
 
-void Mathoperation(int x, int y, (*operation)(int, int));
+void Mathoperation(int x, int y, int (*operation)(int, int));
 int add(int, int);
 int subs(int, int);
 
@@ -14,7 +14,7 @@ int subs(int a, int b)
 	return (a - b);
 }
 
-void Mathoperation(int x, int y, (*operation)(int, int))
+void Mathoperation(int x, int y, int (*operation)(int, int))
 {
 	int result;
 	result = operation(x, y);
