@@ -7,7 +7,7 @@ void add(int a, int b)
 
 void sub(int a, int b)
 {
-	printf("Substraction of %d - %d  = %d\n", a, b, a_b);
+	printf("Substraction of %d - %d  = %d\n", a, b, a-b);
 }
 
 void mul(int a, int b)
@@ -21,7 +21,7 @@ int main(void)
 	unsigned int ch, int x, y;
 	
 	printf("choose 0 for add, 1 for sub, 2 for mul\n");
-	scanf("%d", ch);
+	scanf("%d", &ch);
 
 	printf("Choose the number you want to use for your operation\n");
 	scanf("%d %d", &x, &y);
