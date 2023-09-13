@@ -22,7 +22,7 @@ int main(void)
 	int x, y;
 	
 	printf("choose 0 for add, 1 for sub, 2 for mul\n");
-	scanf("%d", &ch);
+	scanf("%u", &ch);
 
 	printf("Choose the number you want to use for your operation\n");
 	scanf("%d %d", &x, &y);
