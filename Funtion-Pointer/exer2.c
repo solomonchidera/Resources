@@ -11,4 +11,5 @@ int main(void)
 	ptr = printName;
 	ptr("Foo");
 
+	return(0);
 }
