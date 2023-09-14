@@ -1,31 +1,28 @@
 #include "main.h"
 
-int add(int arg, ...)
+
+int sum(int num, ...)
 {
-	int sum, i;
-	sum = 0;
+	int i, result;
+	va_list args;
 
-	va_list list;
+	va_start(args, num);
 
-	va_start(list, arg);
-
-	if (sum == 0)
-		return (0);
-
-/*All the coding will be inside this place*/
-
-	for (i = 0; i < arg; i++)
+	for (i = 0; i < num; i++)
 	{
-		sum += va_arg(list, int);
+		result += va_arg(args, int);
 	}
 
-	va_end(list);
+	va_end(args);
 
-	return (sum);
+	return (result);
 }
 
 int main(void)
 {
-	printf("Addition 1 = %d\n", add(2, 4, 7));
+	int result;
+
+	result = sum(2, 3, 7);
+	printf("The result is %d\n", result);
 	return (0);
 }
