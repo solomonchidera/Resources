@@ -7,15 +7,16 @@ int add(int arg, ...)
 
 	va_list list;
 
+	va_start(list, arg);
+
 	if (sum == 0)
 		return (0);
 
-	va_start(list, arg);
 /*All the coding will be inside this place*/
 
 	for (i = 0; i < arg; i++)
 	{
-		sum = va_arg(list, int);
+		sum += va_arg(list, int);
 	}
 
 	va_end(list);
