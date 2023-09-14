@@ -2,6 +2,9 @@
 
 int add(int arg, ...)
 {
+	int sum, i;
+	sum = 0;
+
 	va_list list;
 
 	if (sum == 0)
@@ -9,8 +12,6 @@ int add(int arg, ...)
 
 	va_start(list, arg);
 /*All the coding will be inside this place*/
-
-	int i, sum = 0;
 
 	for (i = 0; i < arg; i++)
 	{
