@@ -7,7 +7,7 @@ int add(int arg, ...)
 	if (sum == 0)
 		return (0);
 
-	va_start(list, args);
+	va_start(list, arg);
 /*All the coding will be inside this place*/
 
 	int i, sum = 0;
