@@ -14,7 +14,7 @@ int main(void)
 	printf("%d\n", 42[v]);
 	printf("%d\n", *(42 + v));
 
-	// WHAT? Murky area
+	/* WHAT? Murky area*/
 	printf("%c\n", "hello"[1]);
 	printf("%c\n", *("hello" + 1));
 	printf("%c\n", 1["hello"]);
