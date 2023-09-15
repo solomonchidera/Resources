@@ -4,9 +4,9 @@ int average(int n, ...)
 {
 	int i;
 	int total;
+	va_list ap;/*Argument pointer*/
 
 	total = 0, i = 0;
-	va_list ap;/*Argument pointer*/
 
 	va_start(ap, n);/*Tells the pointer to point towards the next argument which is the ...*/
 
@@ -22,12 +22,9 @@ int average(int n, ...)
 
 int main(void)
 {
-	int i;
-	i = 0;
 
-	(float)i = 0;
 
-	printf("The average number of 4 persons are: %d", average(3, 5, 6, 4));
+	printf("The average number of 4 persons are: %f", average(3, 5, 6, 4));
 
 	
 	return (0);
