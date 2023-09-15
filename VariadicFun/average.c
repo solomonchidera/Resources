@@ -22,9 +22,12 @@ int average(int n, ...)
 
 int main(void)
 {
+	float aver;
+
+	aver = average(3, 6 4 7)
 
 
-	printf("The average number of 4 persons are: %f", average(3, 5, 6, 4));
+	printf("The average number of 4 persons are: %f", average);
 
 	
 	return (0);
