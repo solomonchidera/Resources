@@ -4,9 +4,10 @@
 
 int main(void)
 {
+	int i;
 	int v[100];
 
-	for (int i = 0; i < 100; ++i)
+	for (i = 0; i < 100; ++i)
 		v[i] = rand() % 101;
 
 	printf("%d\n", v[42]);
