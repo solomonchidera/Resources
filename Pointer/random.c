@@ -11,6 +11,8 @@ int main(void)
 		v[i] = rand() % 101;
 
 	printf("%d\n", v[42]);
+	printf("%d\n", v[2]);
+	printf("%d\n", *(v + 30));
 	printf("%d\n", *(v + 42));
 	printf("%d\n", 42[v]);
 	printf("%d\n", *(42 + v));
