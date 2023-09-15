@@ -27,7 +27,7 @@ int main(void)
 	aver = average(3, 6, 4, 7);
 
 
-	printf("The average number of 4 persons are: %f", average);
+	printf("The average number of 4 persons are: %f", aver);
 
 	
 	return (0);
