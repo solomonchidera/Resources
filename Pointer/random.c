@@ -19,4 +19,5 @@ int main(void)
 	printf("%c\n", "hello"[1]);
 	printf("%c\n", *("hello" + 1));
 	printf("%c\n", 1["hello"]);
+	return (0);
 }
