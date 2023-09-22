@@ -9,6 +9,7 @@ struct node
 int main(void)
 {
 	struct node *Head;
+	struct node *Snode;
 
 	Head = malloc(sizeof(struct node));
 
@@ -16,7 +17,6 @@ int main(void)
 	Head->next = NULL;
 
 	printf("Head->data = %d\n", Head->data);
-	struct node *Snode;
 	Snode = (struct node *)malloc(sizeof(struct node));
 	Snode->data = 50;
 	Head->next = Snode;
