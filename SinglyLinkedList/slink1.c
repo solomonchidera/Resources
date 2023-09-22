@@ -20,6 +20,7 @@ int main(void)
 	Snode = (struct node *)malloc(sizeof(struct node));
 	Snode->data = 50;
 	Head->next = Snode;
+	Snode->next = NULL;
 	printf("Second node is %d\n", Snode->data);
 	return (0);
 }
