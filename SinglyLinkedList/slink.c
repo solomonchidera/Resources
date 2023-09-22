@@ -9,7 +9,7 @@ struct node
 int main(void)
 {
 	struct node *head;/*The pointer to struct node which is the first node)*/
-	head = (struct node *)malloc(sizeof(struct node));
+	head = malloc(sizeof(struct node));
 
 	if (head == NULL)
 		return (-1);
@@ -17,6 +17,6 @@ int main(void)
 	head->data = 45;
 	head->next = NULL;
 
-	printf("%d %p\n", head->data, head->next);
+	printf("%d \n", head->data);
 	return (0);
 }
