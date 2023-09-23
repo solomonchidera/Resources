@@ -17,7 +17,7 @@ int main(void)
 {
 	struct node *head;
 	struct node *node2;
-	struct node *node3;
+
 	head = (struct node *)malloc(sizeof(struct node));
 	if (head == NULL)
 	{
