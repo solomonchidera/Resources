@@ -39,7 +39,8 @@ int main(void)
 	head->next = node2;
 
 	/*Adding the third node to the list (method 1)*/
-	node3 = malloc(sizeof(struct node));
+
+	/* node3 = malloc(sizeof(struct node));
 	if (node3 == NULL)
 	{
 		printf("Not enough memory to allocate\n");
@@ -47,7 +48,9 @@ int main(void)
 	}
 	node3->data = 22;
 	node3->next = NULL;
-	node2->next = node3;
+	node2->next = node3;*/
+
+	/* Adding the third node to the list (method 2) using our second node!!! */
 	
 
 	printf("head->data: %d\n"
