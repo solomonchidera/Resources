@@ -66,7 +66,7 @@ int main(void)
 
 	printf("head->data: %d\n"
 		"node2->data: %d\n"
-		"node3->data: %d\n", head->data, node2->data, node3->data);
+		"node3->data: %d\n", head->data, node2->data, node2->data);
 
 	return (0);
 }
