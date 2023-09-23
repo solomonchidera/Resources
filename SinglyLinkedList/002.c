@@ -64,9 +64,9 @@ int main(void)
 	/*Linking the second node to the new(third) node*/
 	head->next->next = node2;
 
-	printf("head->data: %d\n"
-		"node2->data: %d\n"
-		"node3->data: %d\n", head->data, node2->data, node2->data);
+	printf("First Node: %d\n"
+		"Second Node: %d\n"
+		"Third Node: %d\n", head->data, node2->data, node2->data);
 
 	return (0);
 }
