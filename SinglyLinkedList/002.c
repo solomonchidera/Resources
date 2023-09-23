@@ -17,7 +17,7 @@ void print_data(struct node *head)
 {
 	if (head == NULL)
 		printf("Linked list is empty\n");
-	struct node *ptr;/*Creating a pointer to iterate the whole list*/
+	struct node *ptr; /*Creating a pointer to iterate the whole list*/
 	ptr = NULL;
 
 	while (ptr != NULL)
