@@ -81,9 +81,5 @@ int main(void)
 
 	print_data(head);
 
-	printf("First Node: %d\n"
-		"Second Node: %d\n"
-		"Third Node: %d\n", head->data, node2->data, node2->data);
-
 	return (0);
 }
