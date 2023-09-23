@@ -26,7 +26,7 @@ int main(void)
 	}
 
 	head->data = 20;
-	head->next = node2;
+	head->next = &node2;
 
 	node2 = malloc(sizeof(struct node));
 	if (node2 == NULL)
