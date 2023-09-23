@@ -52,6 +52,17 @@ int main(void)
 
 	/* Adding the third node to the list (method 2) using our second node!!! */
 	
+	node2 = malloc(sizeof(struct node));
+	if (node2 == NULL)
+	{
+		printf("Allocation failed\n");
+		exit(1);
+	}
+
+	node2->data = 23;
+	node2->next = NULL;
+	/*Linking the second node to the new(third) node*/
+	head->next->next = node2;
 
 	printf("head->data: %d\n"
 		"node2->data: %d\n"
