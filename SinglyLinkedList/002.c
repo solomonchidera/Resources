@@ -13,6 +13,20 @@ struct node
 	struct node *next;
 };
 
+void print_data(struct node *head)
+{
+	if (head == NULL)
+		printf("Linked list is empty\n");
+	struct node *ptr;/*Creating a pointer to iterate the whole list*/
+	ptr = NULL;
+
+	while (ptr != NULL)
+	{
+		printf("%d ", ptr->data);
+		ptr = ptr->next;
+	}
+}
+
 int main(void)
 {
 	struct node *head;
@@ -63,6 +77,8 @@ int main(void)
 	node2->next = NULL;
 	/*Linking the second node to the new(third) node*/
 	head->next->next = node2;
+
+	print_data(head);
 
 	printf("First Node: %d\n"
 		"Second Node: %d\n"
