@@ -16,7 +16,9 @@ struct node
 int main(void)
 {
 	struct node *head;
-	head = (stuct node *)malloc(sizeof(stuct node));
+	struct node *node2;
+
+	head = (struct node *)malloc(sizeof(struct node));
 	if (head == NULL)
 	{
 		printf("Allocation failed\n");
@@ -26,7 +28,6 @@ int main(void)
 	head->data = 20;
 	head->next = node2;
 
-	struct node *node2;
 	node2 = malloc(sizeof(struct node));
 	if (node2 == NULL)
 	{
@@ -36,8 +37,8 @@ int main(void)
 	node2->data = 21;
 	node2->next = NULL;
 
-	printf("head->data: %d\n
-		node2->data: %d\n", head->data, node2->data);
+	printf("head->data: %d\n"
+		"node2->data: %d\n", head->data, node2->data);
 
 	return (0);
 }
