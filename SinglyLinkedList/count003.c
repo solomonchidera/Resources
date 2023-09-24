@@ -26,7 +26,7 @@ void count_no_nodes(void)
 	while (ptr != NULL)
 	{
 		count++;
-		*(ptr).next;
+		*(ptr)->next;
 	}
 	printf("%d\n", count);
 }
