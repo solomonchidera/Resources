@@ -13,6 +13,25 @@ struct node
 	struct node *next;
 };
 
+void num_nodes()
+{
+	struct node *head, ptr;
+	int count;
+	count = 0;
+	ptr = NULL;
+
+	if (head == NULL)
+		printf("list is empty\n");
+
+	ptr = head;
+
+	while (ptr != NULL)
+	{
+		printf("%d \n", count++);
+		ptr = ptr->next;
+	}
+}
+
 int main(void)
 {
 	struct node *head;
@@ -64,7 +83,7 @@ int main(void)
 	/*Linking the second node to the new(third) node*/
 	head->next->next = node2;
 
-	count_no_nodes(head);
+	num_nodes(head);
 
 	return (0);
 }
