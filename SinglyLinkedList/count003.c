@@ -7,8 +7,9 @@
  * Author: SolomonChidera
  */
 
-void count_no_nodes(struct node *head)
+void count_no_nodes(void)
 {
+	struct node *head;
 	int count;
 	struct node *ptr;
 	count = 0;
