@@ -14,7 +14,7 @@ int main(void)
 		return (1);
 	}
 
-	fprintf("Hello World!\n");
+	fprintf(file, "Hello World!\n");
 
 	fclose(file);
 
