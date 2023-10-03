@@ -7,7 +7,7 @@ int main(void)
 	pid_t ppid = getppid();
 
 	printf("Process id is %d\n", pid);
-	printf("Parent process id is %d\n", pppid);
+	printf("Parent process id is %d\n", ppid);
 
 	return (0);
 }
