@@ -17,5 +17,6 @@ int main(void)
 		printf("%s\n", &str);
 	}
 
+	fclose(file);
 	return (0);
 }
