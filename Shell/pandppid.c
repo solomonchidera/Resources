@@ -3,14 +3,11 @@
 
 int main(void)
 {
-	pid_t pid = process;
-	ppid_t ppid = parentprocess;
+	pid_t pid = getpid();
+	pid_t ppid = getppid();
 
-	process = getpid();
-	parentprocess();
-
-	printf("Process id is %d\n", process);
-	printf("Parent process id is %d\n", parentprocess);
+	printf("Process id is %d\n", pid);
+	printf("Parent process id is %d\n", pppid);
 
 	return (0);
 }
