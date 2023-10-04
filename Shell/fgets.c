@@ -14,7 +14,7 @@ int main(void)
 
 	if (fgets(str, 70, file) != NULL)
 	{
-		printf("%s\n", &str);
+		puts(str);
 	}
 
 	fclose(file);
