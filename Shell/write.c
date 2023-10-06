@@ -5,7 +5,7 @@
  * Return: coming soon
  */
 
-int print(char *string)
+int print(const char *string)
 {
 	size_t len;
 	len = strlen(string);
@@ -15,7 +15,7 @@ int print(char *string)
 
 int main(void)
 {
-	char test[9] = "Moniaar";
+	const char test[9] = "Moniaar";
 
 	print(test);
 	putchar(10);
