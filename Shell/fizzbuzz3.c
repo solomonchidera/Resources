@@ -3,6 +3,8 @@
 
 /* 
  * C Program to implement a FizzBuzz using String
+ * Method details: using strcat to append fizz and Buzz to their respective position.
+ * And also using strcpy to clear the buffer after each iteration.
  */
 
 int main(void)
@@ -28,5 +30,4 @@ int main(void)
 	printf("\n");
 
 	return (0);
-
 }
