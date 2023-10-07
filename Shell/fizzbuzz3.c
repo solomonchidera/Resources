@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char str[10] = "";
+	char str[12] = "";
 	int num;
 	num = 1;
 
