@@ -17,7 +17,7 @@ int main(void)
 	{
 		on3 = i % 3 == 0;
 		on5 = i % 5 == 0;
-		one3and5 = i % 3 == 0 && i % 5 == 0;
+		on3and5 = i % 3 == 0 && i % 5 == 0;
 
 		if (on3and5)
 			printf("FizzBuzz ");
