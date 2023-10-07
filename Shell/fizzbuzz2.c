@@ -17,11 +17,9 @@ int main(void)
 	on3and5 = i % 3 == 0 && i % 5 == 0;
 	for(; i <= 100; i++)
 	{
-
-	
-		if (on3and5)
-			printf("FizzBuzz");
-		else if (on3)
+		/**if (on3and5)
+			printf("FizzBuzz");*/
+		if (on3)
 			printf("Fizz");
 		else if (on5)
 			printf("Buzz");
