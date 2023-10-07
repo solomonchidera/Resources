@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+
 /* 
  * C Program to implement a FizzBuzz using String
  */
@@ -20,7 +22,7 @@ int main(void)
 		if (strlen(str) == 0)
 			printf("%d ", i);
 		else
-			printf("%s ");
+			printf("%s ", str);
 
 	}
 	printf("\n");
