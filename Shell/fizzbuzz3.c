@@ -11,7 +11,7 @@ int main(void)
 	int num;
 	num = 1;
 
-	for (; num <= 25; i++)
+	for (; num <= 25; num++)
 	{
 		if (num % 3 == 0)
 			strcat(str, "Fizz");
