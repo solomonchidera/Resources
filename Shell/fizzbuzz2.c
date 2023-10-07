@@ -19,12 +19,12 @@ int main(void)
 	{
 
 	
-		if (on3)
+		if (on3and5)
+			printf("FizzBuzz");
+		else if (on3)
 			printf("Fizz");
 		else if (on5)
 			printf("Buzz");
-		else if (on3and5)
-			printf("FizzBuzz");
 		else
 			printf("%d ", i);
 	}
