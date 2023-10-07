@@ -20,7 +20,7 @@ int main(void)
 		else if (num % 3 == 0 && num % 5 == 0)
 			strcat(str, "FizzBuzz");
 		if (strlen(str) == 0)
-			printf("%d ", i);
+			printf("%d ", num);
 		else
 			printf("%s ", str);
 
