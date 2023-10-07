@@ -12,10 +12,11 @@ int main(void)
 	int i, on3, on5;
 
 	i = 1;
-	on3 = i % 3 == 0;
-	on5 = i % 5 == 0;
+	
 	for(; i <= 100; i++)
 	{
+		on3 = i % 3 == 0;
+		on5 = i % 5 == 0;
 		/**if (on3and5)
 			printf("FizzBuzz");*/
 		if (on3)
