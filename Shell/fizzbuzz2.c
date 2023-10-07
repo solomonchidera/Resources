@@ -20,9 +20,9 @@ int main(void)
 		/**if (on3and5)
 			printf("FizzBuzz");*/
 		if (on3)
-			printf("Fizz");
+			printf("Fizz ");
 		else if (on5)
-			printf("Buzz");
+			printf("Buzz ");
 		else
 			printf("%d ", i);
 	}
