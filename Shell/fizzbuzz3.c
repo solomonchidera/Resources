@@ -9,7 +9,7 @@ int main(void)
 {
 	char str[9] = "";
 	int num;
-	i = 1;
+	num = 1;
 
 	for (; num <= 25; i++)
 	{
@@ -26,5 +26,7 @@ int main(void)
 
 	}
 	printf("\n");
+
+	return (0);
 
 }
