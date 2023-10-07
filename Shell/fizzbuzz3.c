@@ -19,8 +19,6 @@ int main(void)
 			strcat(str, "Fizz");
 		if (num % 5 == 0)
 			strcat(str, "Buzz");
-		if (num % 3 == 0 && num % 5 == 0)
-			strcat(str, "FizzBuzz");
 		if (strlen(str) == 0)
 			printf("%d ", num);
 		else
