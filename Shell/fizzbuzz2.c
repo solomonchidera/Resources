@@ -14,7 +14,8 @@ int main(void)
 	i = 1;
 	on3 = i % 3 == 0;
 	on5 = i % 5 == 0;
-	__attribute__((unused))on3and5 = i % 3 == 0 && i % 5 == 0;
+	on3and5 = i % 3 == 0 && i % 5 == 0;
+	__attribute__((unused))on3and5;
 	for(; i <= 100; i++)
 	{
 		/**if (on3and5)
