@@ -13,6 +13,8 @@ int main(void)
 
 	for (; num <= 25; num++)
 	{
+		str[] = "";
+
 		if (num % 3 == 0)
 			strcat(str, "Fizz");
 		if (num % 5 == 0)
