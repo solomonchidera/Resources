@@ -25,7 +25,6 @@ int main(void)
 			printf("%d ", num);
 		else
 			printf("%s ", str);
-
 	}
 	printf("\n");
 
