@@ -13,5 +13,7 @@ int main(void)
 		printf("You are still a young person\n");
 	else if (age > 25)
 		printf("Haha old man you are :)\n");
+	else if (age == 100)
+		printf("How are you still alive! ")
 	return (0);
 }
