@@ -1,7 +1,7 @@
 [
     {
         "domain": ".codecademy.com",
-        "expirationDate": 1748577200.504031,
+        "expirationDate": 1751086397.939215,
         "hostOnly": false,
         "httpOnly": false,
         "name": "iterableEndUserId",
@@ -10,7 +10,7 @@
         "secure": false,
         "session": false,
         "storeId": null,
-        "value": "ni.na.apor.ti.an%40gmail.com"
+        "value": "c.la.zede.vour.e%40googlemail.com"
     },
     {
         "domain": "www.codecademy.com",
@@ -35,11 +35,11 @@
         "secure": true,
         "session": true,
         "storeId": null,
-        "value": "gVDiOV7Cw5Gsr%2BcvpKryngKDqDEMZcOndCtNeSuZEx47pO%2BVfcuU36FegFqyHSuld1JgnDqCL9nw1ZsnbJJi1Q%3D%3D"
+        "value": "U8qu36v8GhSCTy0JoeYnGn4CFmrqFLMoYWPMYFYS4f4nvjxNwnoiITomkrFpHN%2F2I8h5teKeHLRxzCwOAwHz2w%3D%3D"
     },
     {
         "domain": ".codecademy.com",
-        "expirationDate": 1718699255.384928,
+        "expirationDate": 1721120014.226966,
         "hostOnly": false,
         "httpOnly": false,
         "name": "cc_authenticated",
@@ -65,7 +65,7 @@
     },
     {
         "domain": "www.codecademy.com",
-        "expirationDate": 1718699248.857082,
+        "expirationDate": 1721120005.625173,
         "hostOnly": true,
         "httpOnly": true,
         "name": "remember_user_token",
@@ -74,11 +74,11 @@
         "secure": false,
         "session": false,
         "storeId": null,
-        "value": "eyJfcmFpbHMiOnsibWVzc2FnZSI6Ilcxc2lOalkxTjJZM05EaGtNbVUzWVRJd01EQm1NV0UxWmpnM0lsMHNJbDlSWVc5RmNqbE5lVFZ3YTBaTmFXTnlWMFpmSWl3aU1UY3hOelE0T1RZME9DNDBPVGs1TXpZeklsMD0iLCJleHAiOiIyMDI0LTA2LTE4VDA4OjI3OjI4LjQ5OVoiLCJwdXIiOm51bGx9fQ%3D%3D--30c9710ca6f9f8fcec5f669ef7a6aa16fb84c57f"
+        "value": "eyJfcmFpbHMiOnsibWVzc2FnZSI6Ilcxc2lOalkzWlRReE5tSmpNelEwTTJNd01ERXhZV014TlRCaklsMHNJbVJqWWpOdVdqbEljSHB6ZVZOMWJUbENkVmhUSWl3aU1UY3hPVGt4TURRd05TNHlOelV4TmpNM0lsMD0iLCJleHAiOiIyMDI0LTA3LTE2VDA4OjUzOjI1LjI3NVoiLCJwdXIiOm51bGx9fQ%3D%3D--ae782dfdea35715ef7a231b4b095252815cff34c"
     },
     {
         "domain": ".codecademy.com",
-        "expirationDate": 1718699254.874914,
+        "expirationDate": 1721120013.802549,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_cc_exp_id",
@@ -87,7 +87,7 @@
         "secure": false,
         "session": false,
         "storeId": null,
-        "value": "6657f59fbcfd5a000f219bdc"
+        "value": "667e39f8e920db00153704d5"
     },
     {
         "domain": ".codecademy.com",
@@ -117,7 +117,7 @@
     },
     {
         "domain": ".codecademy.com",
-        "expirationDate": 1718094454.874858,
+        "expirationDate": 1720515213.802487,
         "hostOnly": false,
         "httpOnly": true,
         "name": "cc_jwt",
@@ -126,7 +126,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ijh5bjVOcFI2N1FHb0xxQ1lGT3RIRnQtOUIxMGVENHVPNUR0RzJjZmZVS2cifQ.eyJqdGkiOiIyZmM2YjNkNmRhMzNmYzNlOGQ2MmY1OWEyYTkzYjdjNyIsImlzcyI6Imh0dHBzOi8vd3d3LmNvZGVjYWRlbXkuY29tIiwiZXhwIjoxNzE4MDk0NDU0LCJuYmYiOjE3MTc0ODk2NTQsInN1YiI6InVzZXI6NjY1N2Y3NDhkMmU3YTIwMDBmMWE1Zjg3IiwidXNlcl9pZCI6IjY2NTdmNzQ4ZDJlN2EyMDAwZjFhNWY4NyIsImJ1c2luZXNzX3NlYXRzIjpbXSwiZW50aXRsZW1lbnRzIjpbImFpX2xlX2Fzc2lzdGFudCIsImFpX2ludGVydmlldyIsImFpX2NvZGVfZXhwbGFuYXRpb24iLCJhaV9lcnJvcl9leHBsYW5hdGlvbiIsImFpX3Byb2plY3RfaGludHMiLCJyZXNwb25zZV9mZWVkYmFjayIsInByb21wdF9lbmdpbmVlcmluZyIsImNoYXRncHRfcGx1Z2luIiwiam9iX3JlYWRpbmVzc19jaGVja2VyIl0sImVudGVycHJpc2UiOmZhbHNlLCJwZXJjaXBpb191c2VyX2lkIjpudWxsLCJidXNpbmVzc19wbGFuX2lkIjpudWxsLCJwZXJjaXBpb19vcmdfaWQiOm51bGwsInBlcmNpcGlvX2V1IjpmYWxzZSwicGVyY2lwaW9fZW52aXJvbm1lbnQiOm51bGwsInJvbGVzIjp7ImNvZGVjYWRlbXkiOlsicHJvLWdvbGQiXX0sImNvdW50cnkiOiJCRCIsIm1hbmFnZW1lbnQ6dXNlcl9pZCI6IjY2NTdmNzQ4ZDJlN2EyMDAwZjFhNWY4NyIsIm1hbmFnZW1lbnQ6cm9sZSI6InVzZXIifQ.nF4-DTxjF1jhtYB6WEuud7bqfJbAfzFyQAO8QO46bAfEZ_-97vRyOTGJeUy6Sjwrohlj8Sd4AaDz4j3g5c0BjBt5bjiG7pXkK6Aq0PI9UhzwIOpu6-jQU7qGbrtLSNWUFE0e1-0nRaIXlsXxn7llBP8a9ELVlbgBpnsDNA7HftyBN8ST6DfnepDzjz9qkE2yLLaJxqRdHbucn6zrs_0o6YDPAVjTRf5Bc9ZLLJyjeiqSohb2xnSCE82Q8ZZUbi1P2I-Z6Zc9OsZrcpFdTiV5UcArrsbGGgBjdlaq9gTwux2T47jKtntaWvwG9c7Ti0XtMv3BG0Uw4kJl8cA8uMW2DA"
+        "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ijh5bjVOcFI2N1FHb0xxQ1lGT3RIRnQtOUIxMGVENHVPNUR0RzJjZmZVS2cifQ.eyJqdGkiOiI4YjYzZGMwMjAzZDY5NDZhNWQwZDAwMDUxNjBiNDI1MyIsImlzcyI6Imh0dHBzOi8vd3d3LmNvZGVjYWRlbXkuY29tIiwiZXhwIjoxNzIwNTE1MjEzLCJuYmYiOjE3MTk5MTA0MTMsInN1YiI6InVzZXI6NjY3ZTQxNmJjMzQ0M2MwMDExYWMxNTBjIiwidXNlcl9pZCI6IjY2N2U0MTZiYzM0NDNjMDAxMWFjMTUwYyIsImJ1c2luZXNzX3NlYXRzIjpbXSwiZW50aXRsZW1lbnRzIjpbImFpX2xlX2Fzc2lzdGFudCIsImFpX2ludGVydmlldyIsImFpX2NvZGVfZXhwbGFuYXRpb24iLCJhaV9lcnJvcl9leHBsYW5hdGlvbiIsImFpX3Byb2plY3RfaGludHMiLCJyZXNwb25zZV9mZWVkYmFjayIsInByb21wdF9lbmdpbmVlcmluZyIsImNoYXRncHRfcGx1Z2luIiwiam9iX3JlYWRpbmVzc19jaGVja2VyIl0sImVudGVycHJpc2UiOmZhbHNlLCJwZXJjaXBpb191c2VyX2lkIjpudWxsLCJidXNpbmVzc19wbGFuX2lkIjpudWxsLCJwZXJjaXBpb19vcmdfaWQiOm51bGwsInBlcmNpcGlvX2V1IjpmYWxzZSwicGVyY2lwaW9fZW52aXJvbm1lbnQiOm51bGwsInJvbGVzIjp7ImNvZGVjYWRlbXkiOlsicHJvLWdvbGQiXX0sImNvdW50cnkiOiJCRCIsIm1hbmFnZW1lbnQ6dXNlcl9pZCI6IjY2N2U0MTZiYzM0NDNjMDAxMWFjMTUwYyIsIm1hbmFnZW1lbnQ6cm9sZSI6InVzZXIifQ.RgjZmhvnwi-h02F8JhRvUGquWwA4WPU09346c2kdRGrMkEKQpaxRI-y5Tzz1l0Kyd_c9P4WWxkOJGUEcTG_RMuUuZWcBOzfvxbbP7M7RXRIbXvHsfBGpdtWQqB_Gh3ACoODAEmeECyYQaQ64gAIuZsuP72h9C3tP9FLH6VepBZuBGrq-hUCjeJ06P3Ct8FnyA5XrcgEZ2iUXbRvDek8a9Ch_zaa-yNVK-TBYgJ5ywGqF7nDEDR2vK9Bww6u0IJq-EVaBw9D0MSkWQNhGdjQvNe6xpfFwyzOAd98O5hgbKyrkCjYKMkEgXa7gomRFFWIO1QGLk33rx1_7Ct14QE60OQ"
     },
     {
         "domain": ".codecademy.com",
@@ -138,20 +138,7 @@
         "secure": true,
         "session": true,
         "storeId": null,
-        "value": "aL8_OynJYmsCF7s26TgSWaTKAb3P.H6r.iwLDUWBLqY-1717472394729-0.0.1.1-604800000"
-    },
-    {
-        "domain": ".codecademy.com",
-        "expirationDate": 1718370027,
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "rbuid",
-        "path": "/",
-        "sameSite": null,
-        "secure": false,
-        "session": false,
-        "storeId": null,
-        "value": "rbos-52ffdd7e-4929-4726-b25c-1c7d327507e3"
+        "value": "FQJ6Lgh9jAoCcfaJSvKRnF6.v7RsBPin_2swdQkGUe0-1719910296339-0.0.1.1-604800000"
     },
     {
         "domain": ".codecademy.com",
@@ -168,7 +155,7 @@
     },
     {
         "domain": ".codecademy.com",
-        "expirationDate": 1717491437.318882,
+        "expirationDate": 1719912096.355752,
         "hostOnly": false,
         "httpOnly": true,
         "name": "__cf_bm",
@@ -177,7 +164,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "wvEL2qLnPq6Lo8aXuRyqUTzuI0vGITPq1YC8fcOfsvE-1717489637-1.0.1.1-WvmuYLakVFcr9OW4L28HsQTvZr01F0ndH8nBMCu2wMNe.KG0pwqVvKkgqIWJPqLC1idwes3ZBKz7Fn7OfuNx4w"
+        "value": "Uo1e8M_d5JuCFaizUZBBAjkq86VwYi6KSoIKmFeP58k-1719910296-1.0.1.1-giyDCzhLdz_swRQCAroYL5rbEqKTlUmPDpqf.JE.Ejng2xm3S9kjiC9oCAmnBuOAoHwe8rnOl3mnHArMsLRNrQ"
     },
     {
         "domain": ".codecademy.com",
@@ -189,11 +176,11 @@
         "secure": true,
         "session": true,
         "storeId": null,
-        "value": "259d2fca9b841aa3c279eb83b3a58c4092d0885f-1717472394"
+        "value": "578c82d3e60a32452a07c24d6e89f6e32eec8c76-1719910296"
     },
     {
         "domain": ".www.codecademy.com",
-        "expirationDate": 1748577007,
+        "expirationDate": 1751086353,
         "hostOnly": false,
         "httpOnly": false,
         "name": "__stripe_mid",
@@ -206,7 +193,7 @@
     },
     {
         "domain": "www.codecademy.com",
-        "expirationDate": 1717490555,
+        "expirationDate": 1719911314,
         "hostOnly": true,
         "httpOnly": false,
         "name": "_dd_s",
@@ -215,7 +202,7 @@
         "secure": false,
         "session": false,
         "storeId": null,
-        "value": "rum=1&id=d461abe9-e6a9-44b8-ba7c-268af2756d0a&created=1717489639002&expire=1717490554486&logs=1"
+        "value": "rum=1&id=bef09f5a-dee9-4777-9db7-df2e0df985b3&created=1719910298188&expire=1719911313610&logs=1"
     },
     {
         "domain": ".codecademy.com",
@@ -245,7 +232,7 @@
     },
     {
         "domain": "www.codecademy.com",
-        "expirationDate": 1718699255.385099,
+        "expirationDate": 1721120014.227278,
         "hostOnly": true,
         "httpOnly": true,
         "name": "_session_id",
@@ -254,7 +241,7 @@
         "secure": false,
         "session": false,
         "storeId": null,
-        "value": "be521aa23155c5d716d846de4641df5e"
+        "value": "0e3b50867fce2a939ece4f936e7136fc"
     },
     {
         "domain": ".codecademy.com",
@@ -305,11 +292,11 @@
         "secure": true,
         "session": true,
         "storeId": null,
-        "value": "0ff54a938adfc27d064f6fd6ecf3b949397d33bfc6c4215bee09438c64bab757"
+        "value": "596673bb13f527412ef62a15621b26d17a48dd8de1b403b906f8c8d8e41f1d5e"
     },
     {
         "domain": ".www.codecademy.com",
-        "expirationDate": 1749025654,
+        "expirationDate": 1751446413,
         "hostOnly": false,
         "httpOnly": false,
         "name": "OptanonConsent",
@@ -318,7 +305,7 @@
         "secure": false,
         "session": false,
         "storeId": null,
-        "value": "isGpcEnabled=0&datestamp=Tue+Jun+04+2024+14%3A27%3A34+GMT%2B0600+(Bangladesh+Standard+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0004%3A1%2CC0002%3A1&AwaitingReconsent=false"
+        "value": "isGpcEnabled=0&datestamp=Tue+Jul+02+2024+14%3A53%3A33+GMT%2B0600+(Bangladesh+Standard+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0004%3A1%2CC0002%3A1&AwaitingReconsent=false"
     },
     {
         "domain": ".codecademy.com",
@@ -335,7 +322,7 @@
     },
     {
         "domain": "www.codecademy.com",
-        "expirationDate": 1717496848.857061,
+        "expirationDate": 1719917500.075748,
         "hostOnly": true,
         "httpOnly": false,
         "name": "zendesk_identify",
