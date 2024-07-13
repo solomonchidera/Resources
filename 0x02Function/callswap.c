@@ -13,10 +13,10 @@ int main(void)
 
 	printf("fi                       se\n
 		\-----------------------------\n");
-	printf("This are the numbers you inserted\n
+	printf("These are the numbers you inserted\n
 		%d                        %d\n", fi, se);
 	swap(fi, se);
-	printf("After swapping the two values with the swap\n
+	printf("After swapping the two values with the swap function\n
 		\------------------------------------------\n
 		%d                              %d\n", fi, se);
 
