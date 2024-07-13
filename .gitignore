@@ -1,3 +1,153 @@
+# video downloaded using python
 I hacked time to recover 3 million from a Bitcoin software wallet.mp4
-#python virtual enviroment
-resenv
+# python virtual enviroment
+resenv/
+python_tips/tips/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+docs/_generated/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+*.iml
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Environments
+.env
+.venv
+reloadGithub/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Thumbnails
+._*
+
+# macOS files
+.Spotlight-V100
+.Trashes
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Windows image file cache
+*.stackdump
+
+# Windows folder config file
+Desktop.ini
+
+# venv
+venv/
+ENV/
+env/
+
+# VS Code
+.vscode/
+
+# mypy
+.mypy_cache/
+
+# profiling
+.prof
+
+# Other
+*.swp
+*.swo
+*~
+
+# SQL Files
+*.sql
+
+# Ignore backup files
+*~
+
+# Ignore compiled files
+*.pyc
+
