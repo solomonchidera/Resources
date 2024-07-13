@@ -7,7 +7,9 @@
 *.wmv
 *.m4v
 *.webm
+###### works that dosen't need to be public yet
 
+######
 # python virtual enviroment
 resenv/
 python_tips/tips/
