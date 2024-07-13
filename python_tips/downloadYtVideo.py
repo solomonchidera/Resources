@@ -1,8 +1,10 @@
+#!/usr/bin/env python3
 # Import Youtube class from pytube module
 from pytube import YouTube
 
 # Save your youtube link in a variable
-video_url = "https://www.youtube.com/watch?v=o5IySpAkThg"
+
+video_url = input("Provide the link: ")
 
 # Initialize a youtube object
 
