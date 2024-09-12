@@ -22,7 +22,7 @@ int main(void)
 
 	if (file == NULL)
 	{
-		perror("Get the fuck out of this place!\n");
+		perror("Get the hell out of this place!\n");
 		return (1);
 	}
 
